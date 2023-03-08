@@ -1,0 +1,17 @@
+body {
+    background: rgb(33, 41, 41);
+}
+
+form {
+    background: #fff;
+}
+
+.form-container {
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.mt-5 {
+    margin-top: 14rem!important;
+}
