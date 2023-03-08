@@ -5,33 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <title>Login</title>
   </head>
   <body>
+    <div class="navbar"></div>
     <div id="login">
-      <form class="card" method="get" action="#">
-        <div class="card-header">
+      <form id="card" method="get" action="#">
+        <div id="card-header">
           <h2>Login</h2>
         </div>
 
-        <div class="card-content">
-          <div class="card-content-area">
+        <div id="card-content">
+          <div id="card-content-area">
             <label for="usuario">Usuário</label>
 
             <input type="email" id="usuario" autocomplete="off" />
           </div>
 
-          <div class="card-content-area">
+          <div id="card-content-area">
             <label for="password">Senha</label>
 
             <input type="password" id="password" autocomplete="off" />
           </div>
         </div>
 
-        <div class="card-footer">
-          <input type="submit" value="login" class="submit" />
+        <div id="card-footer">
+          <input type="submit" value="login" id="submit" />
 
-          <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+          <a href="#" id="recuperar_senha">Esqueceu a senha?</a>
         </div>
       </form>
     </div>
