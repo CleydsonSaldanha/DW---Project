@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="login.css" />
+    <script src="https://kit.fontawesome.com/1e579e3d2f.js"></script>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content first-content">
+        <!-- Primeiro Conteúdo -->
+        <!-- Primeira Coluna -->
+        <div class="first-column">
+          <div class="logo">
+            <img class="logomarca" src="logo-removebg-preview (1).png" alt="" />
+          </div>
+          <h2 class="title title-1-1">Bem-Vindo de volta!</h2>
+          <p class="description description-primary">
+            Para manter-se conectado conosco,
+          </p>
+          <p class="description description-primary">
+            faça o login com suas informações pessoais.
+          </p>
+          <button id="entrar" class="btn btn-primary">Entrar</button>
+        </div>
+
+        <!-- Segunda Coluna -->
+        <div class="second-column">
+          <h2 class="title title-1-2">Criar Conta</h2>
+          <!-- Social Mídia -->
+          <div class="social-media">
+            <ul class="list-social-media">
+              <a class="item-social-media" href="#">
+                <li><i class="fab fa-facebook-f"></i></li>
+              </a>
+              <a class="item-social-media" href="#">
+                <li><i class="fab fa-twitter"></i></li>
+              </a>
+              <a class="item-social-media" href="#">
+                <li><i class="fab fa-linkedin-in"></i></li>
+              </a>
+            </ul>
+          </div>
+          <p class="description description-second">
+            ou use seu email para registro:
+          </p>
+
+          <!-- Formulário (Criar Conta) -->
+          <form class="form" action="POST">
+            <input type="text" name="Nome" placeholder="Nome" />
+            <input type="email" name="Email" placeholder="Email" />
+            <input type="password" name="Senha" placeholder="Senha" />
+            <button class="btn btn-second">Inscrever-se</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="content second-content">
+        <!-- Segundo Conteúdo -->
+
+        <!-- Primeira Coluna -->
+        <div class="first-column">
+          <div class="logo">
+            <img src="logo-removebg-preview (1).png" alt="" />
+          </div>
+          <h2 class="title-2-2">Olá amigo!</h2>
+          <p class="description description-primary">
+            Digite seus dados pessoais
+          </p>
+          <p class="description description-primary">
+            e comece sua jornada conosco.
+          </p>
+          <button id="inscrever" class="btn btn-primary">Inscrever-se</button>
+        </div>
+
+        <!-- Segunda Coluna -->
+        <div class="second-column">
+          <h2 class="title-2-1">Faça o Login</h2>
+          <!-- Social Mídia -->
+          <div class="social-media">
+            <ul class="list-social-media">
+              <a class="item-social-media" href="#">
+                <li><i class="fab fa-facebook-f"></i></li>
+              </a>
+              <a class="item-social-media" href="#">
+                <li><i class="fab fa-twitter"></i></li>
+              </a>
+              <a class="item-social-media" href="#">
+                <li><i class="fab fa-linkedin-in"></i></li>
+              </a>
+            </ul>
+          </div>
+          <p class="description description-second">
+            ou use seu email para entrar na conta:
+          </p>
+          <!-- Formulário (Login) -->
+          <form class="form" action="GET">
+            <input type="email" name="Email" placeholder="Email" />
+            <input type="password" name="Senha" placeholder="Senha" />
+            <a href="#">Esqueceu sua senha?</a>
+            <button class="btn btn-second">Entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
