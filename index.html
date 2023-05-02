@@ -9,13 +9,13 @@
   <title>Beholder - Aplicação Web para monitoramento de servidores e computadores</title>
 </head>
 <body>
-  <section id="NavBar" class="p-3" style="border-bottom: 430px; background-color:dimgray">
+  <section id="NavBar" class="p-3" style="border-bottom: 430px; background-color:#4aa4ee">
     <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
             </a>
-    
+
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="#" class="nav-link px-2 text-white bolder">BeHolder - Hardware Analysis</a></li>
               <li><a href="" class="nav-link px-2 text-white"></a></li>
@@ -25,36 +25,40 @@
             </ul>
     
             <div class="text-end">
-              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Sing In</button>
+              <button class="btn btn-outline-light bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Sing In</button>
 
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Login</h5>
-                  <button type="button" class="btn btn-outline-light me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <form method="get" action="">
-                    <div class="input-box">
-                      <span>Usuario</span>
-                      <input type="email" placeholder="email" />
-                    </div>
-        
-                    <div class="input-box">
-                      <span>Senha</span>
-                      <input type="password" placeholder="senha" />
-                    </div>
-        
-                    <div class="remember">
-                      <label> <input type="checkbox" /> Remember me </label>
-                      <a href="#">Esqueceu a Senha?</a>
-                    </div>
-        
-                    <div class="input-box">
-                      <input type="submit" value="Entrar" />
-                    </div>
-                </div>
+             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header bg-primary text-white">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Login</h5>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-              <a href="new-cadastro.html"><button type="button" class="btn btn-outline-light me-2">Sign Up</button></a>
+
+              <div class="offcanvas-body">
+                <form method="get" action="">
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Usuário</label>
+                    <input type="email" class="form-control" id="email" placeholder="email">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="senha" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="senha" placeholder="senha">
+                  </div>
+
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="lembrar">
+                    <label class="form-check-label" for="lembrar">Lembrar-me</label>
+                    <a href="#" class="ms-2">Esqueceu a Senha?</a>
+                  </div>
+
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+              <a href="new-cadastro.html"><button type="button" class="btn btn-outline-light bg-transparent me-2">Sign Up</button></a>
             </div>
         </div>
     </div>
