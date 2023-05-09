@@ -1,9 +1,0 @@
-    <footer id="Footer">
-      <ul>
-        <li><a href="about.html">Mais sobre nós</a></li>
-        <li><a href="contato.html">Contatos</a></li>
-        <li><a href="bugfeedback.html">Relatar um bug</a></li>
-      </ul>
-    </footer>
-  </body>
-</html>
