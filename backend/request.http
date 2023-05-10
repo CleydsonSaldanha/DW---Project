@@ -1,0 +1,33 @@
+
+@jsonServer = http://localhost:3000
+@createdMachineId = {{createMachine.response.body.id}}
+
+### Create a new Host
+# @name createMachine
+POST {{jsonServer}}/machines
+Content-Type: application/json
+
+{
+  "name": "Machine 1",
+  "user": "suporte",
+  "password": "supADM"
+}
+
+### Read all Machines
+GET {{jsonServer}}/machines
+
+### Read a Machine by id
+GET {{jsonServer}}/machines/{{createdMachineId}}
+
+### Update a Machine
+PUT {{jsonServer}}/machines/{{createdMachineId}}
+Content-Type: application/json
+
+{
+  "name": "Machine 1",
+  "user": "support",
+  "password": "supADM"
+}
+
+### Delete a Machine
+DELETE {{jsonServer}}/machines/{{createdMachineId}}

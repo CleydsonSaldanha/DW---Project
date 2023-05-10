@@ -1,0 +1,36 @@
+{
+  "machines": [
+    {
+      "id": 1,
+      "name": "Machine 1",
+      "user": "suporte",
+      "password": "supADM"
+    },
+    {
+      "name": "teste",
+      "user": "teste",
+      "password": "123",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "suporte@sup.com",
+      "password": "supportADM"
+    }
+  ],
+  "pings": [
+    {},
+    {},
+    {}
+  ],
+  "CPUdata": [
+    {}
+  ],
+  "MEMdata": [
+    {},
+    {}
+  ],
+  "Temp": []
+}
